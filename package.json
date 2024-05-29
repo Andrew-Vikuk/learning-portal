@@ -2,7 +2,7 @@
   "homepage": "https://andrew-vikuk.github.io/learning-portal",
   "name": "learningportal",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@emailjs/browser": "^3.10.0",
     "@ramonak/react-progress-bar": "^5.0.3",
