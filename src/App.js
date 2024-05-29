@@ -83,8 +83,9 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
+        <Route exact path='/firstwebapp' element={<Home />} />
         {/* HTML */}
-        <Route exact path='/' element={<Home />} />
+        
         <Route exact path='/about' element={<About />} />
         <Route exact path='/contact' element={<Contact />} />
         <Route exact path='/courses' element={<Courses />} />
