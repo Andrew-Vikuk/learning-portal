@@ -83,7 +83,7 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route exact path='/learning-portal' element={<Home />} />
+        <Route exact path='/' element={<Home />} />
         {/* HTML */}
         
         <Route exact path='/about' element={<About />} />
